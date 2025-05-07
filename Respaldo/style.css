@@ -1,0 +1,233 @@
+<style> 
+            @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); /*Tipografias importadas*/
+            
+
+            
+            section{
+                height: 900px;
+                width: 200px;
+                background-color: darkkhaki;
+                
+                }
+            
+    
+            body{
+                background-color:#f9dec9ff; 
+            }
+            
+            h1{
+                color: #3a405aff;
+                font-size: 80px; /*Tamano de la letra, para comentarios en CSS se usa el diagonal y asterisco*/
+                font-family:"Outfit";
+                background-color: #aec5ebff;
+                text-align: center;
+                font-weight: 700;
+            }
+            h2{
+                color:#685044ff;
+                font-size: 40px;
+                font-family: "Outfit", serif;
+                font-weight: 500;
+                text-align: center;
+                background-color: #e9afa3ff;
+            }
+
+            h6{
+                color:#685044ff;
+                font-size: 20px;
+                font-family: "Outfit", serif;
+                font-weight: 400;
+                text-align: center;
+                background-color: #e9afa3ff;
+                margin-bottom: 90px;
+                margin-left: 10px;
+            }
+            
+            #imguno {
+                width: 600px; /*Aqui se encuentra la especificacion de una cosa*/
+                height: auto;
+                display: block; /*Block significa que las img no se pueden distorsionar*/
+                margin-left: 640px;
+                margin-right: auto;
+            }
+            
+            #imgdos {
+                width: 800px;
+                height: auto;
+                display: block;
+                margin-left: 400px;
+                margin-right: auto;
+                
+            }
+            
+            #imgtres {
+                width: 90px;
+                height: auto;
+                display: block;
+                margin left: 400px;
+                margin-top: 500px;
+                background-color: azure;
+                
+            }
+            
+            #navbar {
+                position: sticky;
+                top: 0;
+                overflow: hidden;
+                background-color: #aec5ebff;
+                margin-left: 400px;
+                margin-right: 500px;
+                color: aliceblue;
+                font-size: 30px;
+                font-family: "Outfit", serif;
+                font-weight: 500;
+                text-align: center;
+                
+            }
+            
+            
+             h3{
+                color:#685044ff;
+                font-size: 25px;
+                font-family: "Outfit", serif;
+                font-weight: 200;
+                background-color:antiquewhite;
+                max-width: 900px;
+                margin-left: 450px; 
+                 
+                 }
+            
+            h4{
+                color:antiquewhite;
+                font-size: 40px;
+                font-family: "Outfit", serif;
+                font-weight: 500;
+                text-align: center;
+                background-color:#3a405aff;
+                 
+                 }
+            
+            p{
+                color:antiquewhite;
+                font-size: 25px;
+                font-family: "Outfit", serif;
+                font-weight: 300;
+                text-align:left;
+                background-color:#aec5ebff;
+                max-width: 500px;
+                margin-left: 400px;  
+                 }
+            
+            .margen{
+                width: 900px;
+                height: 500px;
+                margin-left: 400px;
+                
+            }
+            .pa{
+                margin-top: 300px;
+                
+            }
+            
+            .hermano{
+                z-index: 10px;
+                border-radius: 15px;
+                width: 400px;
+                height: 225px;
+                background-color: floralwhite;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                padding: 10px;
+                border: 33px solid #aec5ebff;
+                box-shadow: 18px 24px 63px 18px rgba(0,0,0,0.75);
+                display: flex;
+            }
+
+            .hermanodos{
+                z-index: 10px;
+                border-radius: 15px;
+                width: 300px;
+                height: 200px;
+                background-color: floralwhite;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                padding: 10px;
+                border: 33px solid #aec5ebff;
+                box-shadow: 18px 24px 63px 18px rgba(0,0,0,0.75);
+                display: flex;
+                color:#685044ff;
+                font-size: 25px;
+                font-family: "Outfit", serif;
+                font-weight: 200;
+                background-color:antiquewhite;
+                max-width: 900px;
+                margin-left: 450px; 
+                 
+            }
+
+            .hermanotres{
+                z-index: 10px;
+                border-radius: 15px;
+                width: 800px;
+                height: 200px;
+                background-color: floralwhite;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                padding: 10px;
+                border: 33px solid #aec5ebff;
+                box-shadow: 18px 24px 63px 18px rgba(0,0,0,0.75);
+                display: flex;
+            }
+            
+            .textomenu{
+                text-decoration: none;
+                color: aliceblue;
+                margin-left: 50px;
+                
+                
+                } 
+              .boton{
+                background-color: black;
+                color: aliceblue;
+                padding: 10px;
+                transition: background-color 0.3s;
+                /*display: block;*/
+                
+                
+                } 
+
+            .boton:hover{
+                background-color: cadetblue;
+                
+                
+                }   
+            .mover{
+                background-color: burlywood;
+                padding: 10px;
+                
+                
+                } 
+            .caja{
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+                background-color: cornflowerblue;
+                margin: 10px;
+                
+            } 
+
+
+        
+        </style>
+
+        <h1>
+        </h1>
+
+
+
+
+
+
