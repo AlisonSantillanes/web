@@ -1,0 +1,434 @@
+<style> 
+            @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); /*Tipografias importadas*/
+            
+
+            
+            section{
+                height: 900px;
+                width: 200px;
+                background-color: darkkhaki;
+                
+                }
+            
+    
+            body{
+                background-color:#f9dec9ff; 
+            }
+            
+            h1{
+                color: #3a405aff;
+                font-size: 80px; /*Tamano de la letra, para comentarios en CSS se usa el diagonal y asterisco*/
+                font-family:"Outfit";
+                background-color: #aec5ebff;
+                text-align: center;
+                font-weight: 700;
+            }
+            h2{
+                color:#685044ff;
+                font-size: 40px;
+                font-family: "Outfit", serif;
+                font-weight: 500;
+                text-align: center;
+                background-color: #e9afa3ff;
+            }
+
+            h6{
+                color:#685044ff;
+                font-size: 20px;
+                font-family: "Outfit", serif;
+                font-weight: 400;
+                text-align: center;
+                background-color: #e9afa3ff;
+                margin-bottom: 90px;
+                margin-left: 10px;
+            }
+            
+            #imguno {
+                width: 600px; /*Aqui se encuentra la especificacion de una cosa*/
+                height: auto;
+                display: block; /*Block significa que las img no se pueden distorsionar*/
+                margin-left: 640px;
+                margin-right: auto;
+            }
+            
+            #imgdos {
+                width: 800px;
+                height: auto;
+                display: block;
+                margin-left: 400px;
+                margin-right: auto;
+                
+            }
+            
+            #imgtres {
+                width: 90px;
+                height: auto;
+                display: block;
+                margin left: 400px;
+                margin-top: 500px;
+                background-color: azure;
+                
+            }
+            
+            #navbar {
+                position: sticky;
+                top: 0;
+                overflow: hidden;
+                background-color: #aec5ebff;
+                margin-left: 400px;
+                margin-right: 500px;
+                color: aliceblue;
+                font-size: 30px;
+                font-family: "Outfit", serif;
+                font-weight: 500;
+                text-align: center;
+                
+            }
+            
+            
+
+             h3{
+                color:#685044ff;
+                font-size: 25px;
+                font-family: "Outfit", serif;
+                font-weight: 200;
+                background-color:antiquewhite;
+                max-width: 900px;
+                margin-left: 450px;
+                
+                 
+                 }
+            
+            h4{
+                color:antiquewhite;
+                font-size: 40px;
+                font-family: "Outfit", serif;
+                font-weight: 500;
+                text-align: center;
+                background-color:#3a405aff;
+                 
+                 }
+            
+            p{
+                color:antiquewhite;
+                font-size: 25px;
+                font-family: "Outfit", serif;
+                font-weight: 300;
+                text-align:left;
+                background-color:#aec5ebff;
+                max-width: 500px;
+                margin-left: 400px; 
+                margin-bottom: 30px;
+                 }
+            
+            .margen{
+                width: 900px;
+                height: 500px;
+                margin-left: 400px;
+                
+            }
+            .pa{
+                margin-top: 100px;
+                
+            }
+            
+            .hermano{
+                z-index: 10px;
+                border-radius: 15px;
+                width: 350px;
+                height: 525px;
+                background-color: floralwhite;
+                margin-left: 300px;
+                margin-right: auto;
+                
+                padding: 10px;
+                border: 33px solid #aec5ebff;
+                box-shadow: 18px 24px 63px 18px rgba(0,0,0,0.75);
+                display: flex;
+                display: inline-block;
+                margin-bottom: 100px;
+            }
+
+            .hermanodos{
+                z-index: 10px;
+                border-radius: 15px;
+                width: 300px;
+                height: 200px;
+                background-color: floralwhite;
+                margin-left: auto;
+                margin-right: auto;
+                
+                padding: 10px;
+                border: 33px solid #aec5ebff;
+                box-shadow: 18px 24px 63px 18px rgba(0,0,0,0.75);
+                
+                color:#685044ff;
+                font-size: 25px;
+                font-family: "Outfit", serif;
+                font-weight: 200;
+                background-color:antiquewhite;
+                max-width: 900px;
+                margin-left: 450px; 
+                display: inline-block;
+            }
+
+            .hermanotres{
+                z-index: 10px;
+                border-radius: 15px;
+                width: 800px;
+                height: 200px;
+                background-color: floralwhite;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 50px;
+                padding: 10px;
+                border: 33px solid #aec5ebff;
+                box-shadow: 18px 24px 63px 18px rgba(0,0,0,0.75);
+                
+                display: inline-block;
+            }
+            
+            .textomenu{
+                text-decoration: none;
+                color: aliceblue;
+                margin-left: 50px;
+                max-height: 1000px;
+                
+                
+                } 
+              .boton{
+                background-color: black;
+                color: aliceblue;
+                padding: 10px;
+                transition: background-color 0.3s;
+                /*display: block;*/
+                
+                
+                } 
+
+            .boton:hover{
+                background-color: cadetblue;
+                
+                
+                }   
+            .mover{
+                background-color: burlywood;
+                padding: 10px;
+                
+                
+                } 
+            .caja{
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+                background-color: cornflowerblue;
+                margin: 10px;
+                
+            } 
+            .hex {
+            background-color: #fcdebeff;
+            color: white;
+            }
+
+            .keyword {
+                background-color: #d4d2a5ff;
+                color: black;
+            }
+
+            .rgb {
+                /*Define los niveles de Rojo, Verde y Azul*/
+                background-color: rgba(94, 87, 104, 1);
+                color: white;
+            }
+
+            .rgba {
+                background-color: rgba(58, 68, 93, 1);
+                color: white;
+            }
+
+            .hsl {
+                /*Se basa en el círculo cromatico
+            h = Hue (tono, 0–360°, como un ángulo en el círculo de color)
+            s = Saturation (saturación, 0%–100%)
+            l = Lightness (luminosidad, 0%–100%)
+            */
+                background-color: hsla(215, 50%, 68%, 1);
+                color: white;
+                color:#685044ff;
+                font-size: 40px;
+                font-family: "Outfit", serif;
+                font-weight: 500;
+                text-align: center;
+                background-color: #e9afa3ff;
+            }
+
+            .hsla {
+                background-color: hsla(223, 23%, 30%, 1);
+                color: white;
+            }
+
+            div {
+                padding: 10px;
+                margin: 5px;
+                font-family: sans-serif;
+            }
+
+            .parallax {
+                /* The image used */
+                background-image: url("https://vancouverblooms.ca/cdn/shop/collections/shutterstock_578990173_2048x.jpg?v=1709906983");
+
+                /* Set a specific height */
+                height: 500px;
+
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .flor{
+            
+                color:#685044ff;
+                font-size: 25px;
+                font-family: "Outfit", serif;
+                font-weight: 200;
+                background-color:antiquewhite;
+                max-width: 900px;
+                margin-left: 450px; 
+                 }
+
+            .hermanotress{
+                z-index: 10px;
+                border-radius: 15px;
+                width: 400px;
+                height: 200px;
+                background-color: floralwhite;
+                margin-left: 100px;
+                margin-right: auto;
+                margin-bottom: 50px;
+                padding: 10px;
+                border: 33px solid #aec5ebff;
+                box-shadow: 18px 24px 63px 18px rgba(0,0,0,0.75);
+                
+                
+                display: inline-block;
+            }
+
+            
+            .footer{
+            
+            
+                background-color:black;
+                max-width: 900px;
+                margin-left: 500px;
+                width: auto;
+                height: auto;
+                 }
+
+            .parallaxx {
+                /* The image used */
+                background-image: url("https://s1.elespanol.com/2020/06/23/curiosidades/naturaleza-planeta-tierra/ciencias_naturales-flores-naturaleza_y_planeta_tierra_499960581_154305912_1706x960.jpg");
+
+                /* Set a specific height */
+                height: 600px;
+                margin-top: auto;
+
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+             #slideshow {
+              text-align: center;
+              overflow: hidden;
+              height: 510px;
+              width: 728px;
+              margin-bottom: 100px;
+                 margin-left: 500px;
+
+            }
+
+            .slide-wrapper {
+              width: 2912px;
+              animation: slide 18s ease infinite;
+            }
+
+            .slide {
+             float: left;
+              height: 510px;
+              width: 728px;
+            }
+
+            .slide:nth-child(1) { /*Elementos de una etiqueta dentro*/
+              background-image: url(img/1.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .slide:nth-child(2) {
+              background-image: url(img/2.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .slide:nth-child(3) {
+              background-image: url(img/3.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .slide:nth-child(4) {
+              background-image: url(img/4.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .slide:nth-child(5) {
+              background-image: url(img/5.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+
+            @keyframes slide {
+              20% {margin-left: 0px;}
+              30% {margin-left: -728px;}
+              50% {margin-left: -728px;}
+              60% {margin-left: -1456px;}
+              70% {margin-left: -1456px;}
+              80% {margin-left: -2184px;}
+              90% {margin-left: -2184px;}
+            }
+
+
+            .hermanooo{
+                z-index: 10px;
+                border-radius: 15px;
+                width: 400px;
+                height: 525px;
+                background-color: floralwhite;
+                margin-left: 500px;
+                margin-right: auto;
+                
+                padding: 10px;
+                border: 33px solid #aec5ebff;
+                box-shadow: 18px 24px 63px 18px rgba(0,0,0,0.75);
+                display: flex;
+                display: inline-block;
+                margin-top: 100px;
+            }
+
+
+
+        
+        </style>
+
+        <h1>
+        </h1>
+
+
+
+
+
+
